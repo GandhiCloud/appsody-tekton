@@ -6,7 +6,7 @@
 * Cloud Pak for Applications installed on Openshift cluster
 * appsody CLI
 * oc CLI
-* git CLI
+* git
 
 
 ## Add Kabanero Collection to appsody
@@ -103,7 +103,7 @@ appsody run
 5. Access the applicaiton using the below url.
 
 ```
-    http://localhost:8080.
+    http://localhost:8080
     http://localhost:8080/actuator/health
     http://localhost:8080/actuator/liveness
     http://localhost:8080/actuator/metrics
@@ -238,6 +238,7 @@ git push -u origin master
 2. Commit and push the changes to the git.
 
 ```
+git add .
 git commit -m "first change"
 git push -u origin master
 ```
