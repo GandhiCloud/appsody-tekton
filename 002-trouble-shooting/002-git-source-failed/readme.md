@@ -21,11 +21,11 @@ Error running git [pull --recurse-submodules=yes origin]: exit status 1\nfatal: 
 
 ## Reason
 
-The username to access to `https://github.ibm.com` could not be found
+The username to access `https://github.ibm.com` could not be found
 
 ## Solution
 
-Create an Secrete to Git Server in Tekton dashboard as follows.
+Create a Secret to Git Server in Tekton dashboard as follows.
 
 1. Create Secret as given below. 
 
